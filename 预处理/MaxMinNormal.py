@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
+# 此代码对数据进行最大最小归一化
 # 读取Excel文件
 input_file = './../data.xlsx'  # 替换为你的文件名
 df = pd.read_excel(input_file).drop(['SOM', 'name'], axis=1)
